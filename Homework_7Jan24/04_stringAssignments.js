@@ -17,7 +17,7 @@ function palindrome(inputText)
     let givenInput= inputText.toLowerCase();
     console.log(givenInput);
 
-    let reversedInput=givenInput.split(' ').reverse().join(' ');
+    let reversedInput=givenInput.split('').reverse().join('');
     console.log(reversedInput);
 
     if(givenInput === reversedInput)
