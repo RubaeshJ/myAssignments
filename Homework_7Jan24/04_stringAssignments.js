@@ -12,7 +12,7 @@ console.log('The length of the last word is ' +result);
 
 /*Given string is palindrome or not*/
 
-function palindrome(inpinputTextut)
+function palindrome(inputText)
 {
     let givenInput= inputText.toLowerCase();
     console.log(givenInput);
